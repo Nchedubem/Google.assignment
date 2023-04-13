@@ -1,0 +1,89 @@
+body {
+      display: flex;
+      flex-direction: column;
+      height: 100vh
+}  /* header */
+    .header{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 30px;
+        align-items: center;
+    }
+    .header a {
+        margin-right: 20px;
+        color: rgba(0, 0, 0, 0.7);
+        font-size: 15px;
+        text-decoration: inherit;
+        }
+    .header a:hover{
+        text-decoration: underline; 
+    }
+        .header_right {
+         display: flex;
+         align-items: center;
+         min-width: 13vw;
+         justify-content: space-between;   
+        }
+         .header_right .header_app{
+            margin-right: 10px;
+            height: 25px;
+            width: 25px;
+         } 
+         .header_account-circle{
+            height: 30px;
+            width: 30px;
+         } 
+         .mainBody {
+            width: 50%;
+            text-align: center;
+            margin: 6.3em auto;
+        
+         }
+         .mainbody .logo {
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+          .search {
+            display: flex;
+            align-items: center;
+            border: 1px solid lightgray;
+            height: 30px;
+            padding: 10px 20px;
+            border-radius: 999px;
+            width: 50vw;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 25px;         
+
+          }
+          .search input {
+            flex: 1;
+            padding: 10px 20px;
+            border: none;
+            outline: none;
+          }
+
+          .search .search-img {
+            height: 25px;
+          }
+
+          .search .mic-img {
+            height: 25px;
+          }
+
+          .search_buttons {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center
+          }
+
+          .search_buttons button {
+              margin-top: spx;
+              padding: 10px 15px;
+              background-color: f8f8f8;
+              outline: none;
+              border: none;
+              cursor: pointer 
+          }
+
