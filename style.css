@@ -2,7 +2,7 @@ body {
       display: flex;
       flex-direction: column;
       height: 100vh
-}  /* header */
+} 
     .header{
         display: flex;
         justify-content: space-between;
@@ -81,9 +81,29 @@ body {
           .search_buttons button {
               margin-top: spx;
               padding: 10px 15px;
-              background-color: f8f8f8;
+              background-color: black;
               outline: none;
               border: none;
               cursor: pointer 
           }
 
+          footer{
+            background-color: F2F2F2;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            font-size: 15px;
+            color: #6f6f6f;
+          }
+
+          footer div.footer-bottom {
+            padding: 10px 20px;
+            border-bottom: 0px; 
+            }
+
+          
+          footer div.footer- {
+           display: flex;
+           flex-wrap:wrap;
+          }
+          
